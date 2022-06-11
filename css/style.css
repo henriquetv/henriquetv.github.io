@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    
+
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rai {
+    width: 100px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow:  0 0 20px white;
+}
+
+#nome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#profision {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin: 10px 20px;
+    
+}
+
+.link-list li a {
+    display: block;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+    box-shadow:  0 0 10px rgb(53, 53, 53);
+}
+
+.link-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+.fot-0 {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-around;
+    box-shadow:  0 0 10px rgb(255, 255, 255);
+}
+
+.fot-0 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
